@@ -1,0 +1,25 @@
+{
+  "name": "gulp-generate-css-import",
+  "version": "1.0.0",
+  "description": "Gulp task to generate a CSS string with @imports for the passed files (mainly to be used with gulp-usemin)",
+  "author": "Bruno Assarisse <bruno@assarisse.com.br> (http://bassarisse.com)",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bassarisse/gulp-generate-css-import.git"
+  },
+  "keywords": [
+    "css",
+    "css-import",
+    "gulp",
+    "gulp-usemin"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "through2": "^2.0.0"
+  },
+  "main": "index.js"
+}
